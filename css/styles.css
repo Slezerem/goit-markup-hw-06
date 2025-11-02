@@ -986,11 +986,15 @@ svg {
 
 
     .team-list {
+        display: flex;
+        flex-wrap: wrap;
         gap: 64px 24px;
+        justify-content: center;
     }
 
     .team-item {
-        width: calc((100% - 24px) / 2);
+        flex: 0 0 calc(50% - 12px);
+        max-width: 264px;
     }
 
 
