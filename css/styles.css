@@ -108,6 +108,11 @@ button {
     text-transform: uppercase;
     color: var(--primary-brand);
     text-decoration: none;
+    margin-right: 76px;
+}
+
+.logo-span {
+    color: var(--dark);
 }
 
 .logo-span {
@@ -290,7 +295,9 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 112px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 188px 0;
     text-align: center;
 }
 
